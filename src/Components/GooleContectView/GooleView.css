@@ -1,0 +1,98 @@
+ul,ol,li {
+  padding-left: 0;
+  list-style: none;
+}
+.v-tbody{
+  cursor: pointer;
+}
+.v-table tr th{
+  color: #444746;
+  font-size: 14px;
+
+}
+.v-table tr th i{
+  text-shadow: 1px 1px 0 #444746;
+  cursor: pointer;
+}
+.v-tbody{
+  font-size: 15px;
+  color: #444746;
+}
+.v-tbody i{
+  color: #444746;
+  font-size: 16px;
+  cursor: pointer;
+}
+.user-avatar {
+  width: 35px;
+  height: 35px;
+  background-color: #007bff; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  text-transform: uppercase; 
+}
+
+.user-avatar span {
+  font-size: 18px;
+}
+.v-tbody tr {
+  border-bottom: none; 
+}
+
+.v-tbody td {
+  border-bottom: none; 
+}
+.user-action i {
+  visibility: hidden; 
+  opacity: 0; 
+  transition: opacity 0.2s ease-in-out; 
+}
+
+.user-action i {
+  visibility: hidden; 
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.v-tbody tr:hover .user-action i {
+  visibility: visible; 
+  opacity: 1; 
+}
+
+.delete-option i {
+  visibility: visible; 
+  opacity: 1; 
+}
+
+
+/* edit */
+.delete-option {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px 60px 15px 20px;
+  margin-left: -11%;
+  cursor: pointer;
+  font-size: 15px;
+}
+.delete-option i{
+  text-shadow: 1px 1px 0 #DDDDDD;
+  font-weight: 700;
+}
+.bold-icon {
+  cursor: pointer;
+}
+
+.delete-option p {
+  background-color: white;
+  color: #3C4043;
+  border: none;
+  padding: 0px 10px;
+  cursor: pointer;
+
+}
